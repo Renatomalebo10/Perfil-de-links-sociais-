@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2eae2;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+main header{
+    background-image: url(images/image-product-desktop.jpg);
+    width: 150px;
+    height: 150px;
+}
