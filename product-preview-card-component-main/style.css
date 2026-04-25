@@ -95,3 +95,32 @@ section button img{
 section button:hover{
     background-color: #1a4032;
 }
+
+@media (max-width: 375px) {
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    }
+
+    main{
+    background-color: #ffffff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+
+    main .img{
+    background-image: url(images/image-product-mobile.jpg);
+    width: 260px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+}
