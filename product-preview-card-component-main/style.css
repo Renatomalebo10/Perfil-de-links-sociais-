@@ -14,10 +14,23 @@ body{
 
 main{
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
-main header{
+main .img{
     background-image: url(images/image-product-desktop.jpg);
-    width: 150px;
-    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: 350px;
+    height: 500px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    
 }
+
